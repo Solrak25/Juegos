@@ -14,8 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="bin\Debug\net8.0-windows\Mapa.txt" />
-    <Resource Include="Mapa.txt" />
+    <Resource Include="Mapas\Mapa.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net8.0-windows\" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_X"
         mc:Ignorable="d"
-        Title="Proyecto X" Height="450" Width="800" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
+        Title="Proyecto X" Height="800" Width="800" Loaded="Window_Loaded" KeyDown="Window_KeyDown"
+        WindowStartupLocation="CenterScreen"
+        SizeChanged="Window_SizeChanged">
     <Grid x:Name="GridRoot" ShowGridLines="True">
         
     </Grid>
