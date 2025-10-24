@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Proyecto_X</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Mapa.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bin\Debug\net8.0-windows\Mapa.txt" />
+    <Resource Include="Mapa.txt" />
+  </ItemGroup>
+
+</Project>
